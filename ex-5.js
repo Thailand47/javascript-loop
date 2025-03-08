@@ -2,3 +2,8 @@
 let companyName = "TechUp";
 
 // Start coding here
+
+for (let i = 0; i < companyName.length; i++) {
+    let string = companyName[i];    
+    console.log(`Number ${i + 1} character is ${string}`);
+}
